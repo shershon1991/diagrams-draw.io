@@ -1,50 +1,50 @@
-<mxfile host="app.diagrams.net" modified="2021-07-10T11:35:42.877Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="IMGOQjdb7Tx4ELzGLAte" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-04T15:11:49.300Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="PiloPUoXXflcJxJP9413" version="16.6.6" type="github">
   <diagram id="gkQgTa1KYmIYHSOEAxT3" name="第 1 页">
-    <mxGraphModel dx="946" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="pDCpCH_vm0g5KHpgydWK-1" value="版本（4位）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="120" y="90" width="170" height="60" as="geometry" />
+        <mxCell id="pDCpCH_vm0g5KHpgydWK-1" value="版本（4位）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="125" y="90" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pDCpCH_vm0g5KHpgydWK-3" value="首部长度（4位）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="290" y="90" width="170" height="60" as="geometry" />
+        <mxCell id="pDCpCH_vm0g5KHpgydWK-3" value="首部长度（4位）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="295" y="90" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pDCpCH_vm0g5KHpgydWK-4" value="服务类型 TOS（8位）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="460" y="90" width="340" height="60" as="geometry" />
+        <mxCell id="pDCpCH_vm0g5KHpgydWK-4" value="服务类型 TOS（8位）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="465" y="90" width="340" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pDCpCH_vm0g5KHpgydWK-5" value="总长度（16位）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="120" y="150" width="680" height="60" as="geometry" />
+        <mxCell id="pDCpCH_vm0g5KHpgydWK-5" value="总长度（16位）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="125" y="150" width="680" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pDCpCH_vm0g5KHpgydWK-6" value="标识（16位）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="120" y="210" width="680" height="60" as="geometry" />
+        <mxCell id="pDCpCH_vm0g5KHpgydWK-6" value="标识（16位）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="125" y="210" width="680" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pDCpCH_vm0g5KHpgydWK-7" value="片偏移（13位）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="250" y="270" width="550" height="60" as="geometry" />
+        <mxCell id="pDCpCH_vm0g5KHpgydWK-7" value="片偏移（13位）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="255" y="270" width="550" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pDCpCH_vm0g5KHpgydWK-9" value="标志（3位）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="120" y="270" width="130" height="60" as="geometry" />
+        <mxCell id="pDCpCH_vm0g5KHpgydWK-9" value="标志（3位）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="125" y="270" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pDCpCH_vm0g5KHpgydWK-11" value="TTL（8位）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="120" y="330" width="340" height="60" as="geometry" />
+        <mxCell id="pDCpCH_vm0g5KHpgydWK-11" value="TTL（8位）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="125" y="330" width="340" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pDCpCH_vm0g5KHpgydWK-12" value="协议（8位）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="460" y="330" width="340" height="60" as="geometry" />
+        <mxCell id="pDCpCH_vm0g5KHpgydWK-12" value="协议（8位）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="465" y="330" width="340" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pDCpCH_vm0g5KHpgydWK-13" value="首部校验和（16位）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="120" y="390" width="680" height="60" as="geometry" />
+        <mxCell id="pDCpCH_vm0g5KHpgydWK-13" value="首部校验和（16位）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="125" y="390" width="680" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pDCpCH_vm0g5KHpgydWK-14" value="源IP地址（32位）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="120" y="450" width="680" height="110" as="geometry" />
+        <mxCell id="pDCpCH_vm0g5KHpgydWK-14" value="源IP地址（32位）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="125" y="450" width="680" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="pDCpCH_vm0g5KHpgydWK-15" value="目标IP地址（32位）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="120" y="560" width="680" height="110" as="geometry" />
+        <mxCell id="pDCpCH_vm0g5KHpgydWK-15" value="目标IP地址（32位）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="125" y="560" width="680" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="pDCpCH_vm0g5KHpgydWK-16" value="选项" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="120" y="670" width="680" height="60" as="geometry" />
+        <mxCell id="pDCpCH_vm0g5KHpgydWK-16" value="选项" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="125" y="670" width="680" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pDCpCH_vm0g5KHpgydWK-17" value="数据" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="120" y="730" width="680" height="290" as="geometry" />
+        <mxCell id="pDCpCH_vm0g5KHpgydWK-17" value="数据" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="125" y="730" width="680" height="290" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
