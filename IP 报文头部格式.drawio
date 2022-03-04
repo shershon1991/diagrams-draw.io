@@ -1,50 +1,56 @@
-<mxfile host="app.diagrams.net" modified="2022-03-04T15:14:23.020Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="ZSxeGjboDM5QW8qW4WKG" version="16.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-04T15:17:15.364Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="aOa_Xcq7tao6FmnPH8ji" version="16.6.6" type="github">
   <diagram id="gkQgTa1KYmIYHSOEAxT3" name="第 1 页">
-    <mxGraphModel dx="1186" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2156" dy="2284" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="pDCpCH_vm0g5KHpgydWK-1" value="版本（4位）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="125" y="90" width="170" height="60" as="geometry" />
+        <mxCell id="3Itjd-yShe5TsA6-0TV6-1" value="版本（version）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="147" y="-870" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pDCpCH_vm0g5KHpgydWK-3" value="首部长度（4位）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="295" y="90" width="170" height="60" as="geometry" />
+        <mxCell id="3Itjd-yShe5TsA6-0TV6-2" value="首部长度（IHL）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="317" y="-870" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pDCpCH_vm0g5KHpgydWK-4" value="服务类型 TOS（8位）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="465" y="90" width="340" height="60" as="geometry" />
+        <mxCell id="3Itjd-yShe5TsA6-0TV6-3" value="服务类型 （TOS）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="487" y="-870" width="340" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pDCpCH_vm0g5KHpgydWK-5" value="总长度（16位）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="125" y="150" width="680" height="60" as="geometry" />
+        <mxCell id="3Itjd-yShe5TsA6-0TV6-4" value="总长度（Total Len）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="827" y="-870" width="680" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pDCpCH_vm0g5KHpgydWK-6" value="标识（16位）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="125" y="210" width="680" height="60" as="geometry" />
+        <mxCell id="3Itjd-yShe5TsA6-0TV6-5" value="标识（Identification）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="147" y="-810" width="680" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pDCpCH_vm0g5KHpgydWK-7" value="片偏移（13位）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="255" y="270" width="550" height="60" as="geometry" />
+        <mxCell id="3Itjd-yShe5TsA6-0TV6-6" value="片偏移（Fragment Offset）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="957" y="-810" width="550" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pDCpCH_vm0g5KHpgydWK-9" value="标志（3位）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="125" y="270" width="130" height="60" as="geometry" />
+        <mxCell id="3Itjd-yShe5TsA6-0TV6-7" value="标志（Flags）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="827" y="-810" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pDCpCH_vm0g5KHpgydWK-11" value="TTL（8位）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="125" y="330" width="340" height="60" as="geometry" />
+        <mxCell id="3Itjd-yShe5TsA6-0TV6-8" value="生存时间（TTL）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="147" y="-750" width="340" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pDCpCH_vm0g5KHpgydWK-12" value="协议（8位）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="465" y="330" width="340" height="60" as="geometry" />
+        <mxCell id="3Itjd-yShe5TsA6-0TV6-9" value="协议（Protocol）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="487" y="-750" width="340" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pDCpCH_vm0g5KHpgydWK-13" value="首部校验和（16位）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="125" y="390" width="680" height="60" as="geometry" />
+        <mxCell id="3Itjd-yShe5TsA6-0TV6-10" value="首部校验和（Header Checksum）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="827" y="-750" width="680" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pDCpCH_vm0g5KHpgydWK-14" value="源IP地址（32位）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="125" y="450" width="680" height="110" as="geometry" />
+        <mxCell id="3Itjd-yShe5TsA6-0TV6-11" value="源IP地址（Source Address）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="147" y="-690" width="1360" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pDCpCH_vm0g5KHpgydWK-15" value="目标IP地址（32位）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="125" y="560" width="680" height="110" as="geometry" />
+        <mxCell id="3Itjd-yShe5TsA6-0TV6-12" value="目标IP地址（Destination Address）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="147" y="-630" width="1360" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pDCpCH_vm0g5KHpgydWK-16" value="选项" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="125" y="670" width="680" height="60" as="geometry" />
+        <mxCell id="3Itjd-yShe5TsA6-0TV6-13" value="可选字段（Options）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="147" y="-570" width="1160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="pDCpCH_vm0g5KHpgydWK-17" value="数据" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="125" y="730" width="680" height="290" as="geometry" />
+        <mxCell id="3Itjd-yShe5TsA6-0TV6-14" value="数据（Data）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="147" y="-510" width="1360" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="3Itjd-yShe5TsA6-0TV6-15" value="IPv4头部格式" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="757" y="-1030" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3Itjd-yShe5TsA6-0TV6-16" value="填充（Padding）" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=20;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1307" y="-570" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
